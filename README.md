@@ -1,207 +1,480 @@
-# 🛒 Blinkit Business Intelligence Dashboard
+# 🛒 Blinkit Operations & Sales Analytics Dashboard
 
 ## 📌 Project Overview
 
-The **Blinkit Business Intelligence Dashboard** is an interactive Power BI solution designed to analyze business performance across multiple operational areas of a quick-commerce business. The dashboard consolidates sales, customer, inventory, marketing, and customer feedback data into a single platform, enabling stakeholders to make informed, data-driven decisions.
+The **Blinkit Operations & Sales Analytics Dashboard** is an interactive Power BI project designed to analyze and monitor the performance of a quick-commerce business.
+
+The dashboard brings together key business areas including **deliveries, customers, marketing, inventory, and sales** into a centralized analytical view.
+
+The objective is to help business stakeholders and operations teams understand performance trends, identify potential bottlenecks, and make data-driven decisions.
 
 ---
 
 ## 🎯 Business Problem
 
-Blinkit generates large volumes of operational data from orders, customers, inventory, marketing campaigns, and customer feedback every day.
+Quick-commerce businesses generate large volumes of data related to:
 
-Without a centralized reporting system, stakeholders face challenges in:
+* Orders and deliveries
+* Inventory
+* Customer behavior
+* Delivery performance
+* Customer feedback
+* Marketing campaigns
+* Revenue and sales
 
-- Tracking overall sales performance
-- Monitoring inventory levels
-- Understanding customer behavior
-- Measuring marketing effectiveness
-- Analyzing customer feedback
-- Making quick and informed business decisions
+Analyzing these areas separately can make it difficult to identify important trends and operational issues.
 
-This dashboard addresses these challenges by providing a unified Business Intelligence solution with interactive reports and KPIs.
-
----
-
-## 🎯 Business Objectives
-
-The dashboard enables management to:
-
-- Monitor overall business performance
-- Identify top-performing products and categories
-- Analyze customer purchasing behavior
-- Improve inventory planning
-- Track revenue and sales trends
-- Measure marketing campaign effectiveness
-- Improve customer satisfaction using feedback analysis
-- Support data-driven decision-making
+This project addresses the problem by creating an **interactive Power BI dashboard** that consolidates important KPIs and business insights into one platform.
 
 ---
 
-# 📊 Dashboard Pages
+## 🎯 Project Objectives
 
-## 1️⃣ Executive Overview
+The main objectives of this project are to:
 
-Provides an executive summary of business performance through key KPIs and performance indicators.
-
-### Key Highlights
-- Business KPIs
-- Revenue Overview
-- Sales Performance
-- Executive Summary
-
----
-
-## 2️⃣ Sales Analytics
-
-### Analyzes
-
-- Sales Trends
-- Revenue Performance
-- Product Category Performance
-- Average Order Value (AOV)
-- Monthly Sales Performance
-
-### Business Value
-
-Helps management identify:
-- Top-performing products
-- Seasonal sales trends
-- Revenue growth opportunities
+* Monitor daily, weekly, and monthly delivery trends.
+* Analyze delivery completion performance.
+* Identify revenue contribution across regions.
+* Analyze customer retention and customer value.
+* Understand customer feedback and sentiment.
+* Evaluate marketing campaign performance.
+* Analyze customer acquisition channels.
+* Monitor inventory levels and low-stock products.
+* Analyze revenue and sales trends.
+* Track Average Order Value (AOV).
+* Provide interactive filtering and drill-down capabilities.
 
 ---
 
-## 3️⃣ Customer Analytics
+# 📊 Dashboard Structure
 
-### Analyzes
-
-- Customer Retention
-- High-Value Customers
-- Customer Purchasing Behavior
-
-### Business Value
-
-Supports:
-- Customer segmentation
-- Customer loyalty improvement
-- Better customer targeting
+The dashboard is divided into **5 analytical pages**.
 
 ---
 
-## 4️⃣ Customer Feedback Analytics
+## 1️⃣ Overview Page
 
-### Analyzes
+The Overview page provides a high-level summary of business and operational performance.
 
-- Positive Feedback
-- Negative Feedback
-- Customer Sentiment
+### 📈 Total Deliveries Over Time
 
-### Business Value
+**Visual:** Line Chart
+
+Displays delivery trends across different time periods such as:
+
+* Daily
+* Weekly
+* Monthly
+
+### Business Use
 
 Helps identify:
 
-- Customer pain points
-- Service improvement opportunities
-- Customer satisfaction trends
+* Peak demand periods
+* Off-peak periods
+* Delivery volume trends
+* Resource allocation opportunities
 
 ---
 
-## 5️⃣ Inventory Analytics
+### 🍩 Delivery Completion Rate
 
-### Analyzes
+**Visual:** Donut Chart
 
-- Stock Availability
-- Inventory Turnover
-- Low Stock Products
+Shows the proportion of:
 
-### Business Value
+* Successful deliveries
+* Failed deliveries
+* Delayed deliveries
 
-Supports:
+### Business Use
 
-- Inventory optimization
-- Stock replenishment planning
-- Prevention of stock shortages
+Helps identify potential delivery and logistics issues and monitor operational efficiency.
 
 ---
 
-## 6️⃣ Marketing Analytics
+### 🌎 Revenue Contribution by Region
 
-### Analyzes
+**Visual:** Bar Chart
 
-- Campaign ROI
-- Customer Acquisition Channels
-- Regional Marketing Performance
+Shows revenue generated across different geographical regions or cities.
 
-### Business Value
+### Business Use
 
-Helps optimize:
+Helps identify:
 
-- Marketing budget allocation
-- Campaign effectiveness
-- Customer acquisition strategies
+* High-performing regions
+* Underperforming regions
+* Regional revenue patterns
 
 ---
 
-# 📈 Business Domains Covered
+# 2️⃣ Customer Analytics Page
 
-- 📊 Sales Analytics
-- 👥 Customer Analytics
-- 📦 Inventory Analytics
-- 📢 Marketing Analytics
-- ⭐ Customer Feedback Analytics
+This page focuses on customer behavior, retention, and feedback.
+
+---
+
+### 🎯 Customer Retention Rate
+
+**Visual:** Gauge Chart
+
+Measures the percentage of customers who place repeat orders within a defined period.
+
+### Business Use
+
+Helps understand:
+
+* Customer loyalty
+* Repeat purchasing behavior
+* Customer engagement
+
+---
+
+### 👥 Top Customers by Revenue
+
+**Visual:** Table
+
+Displays customers generating the highest revenue.
+
+### Business Use
+
+Helps identify valuable customers who may be targeted through:
+
+* Personalized offers
+* Loyalty programs
+* Customer engagement strategies
+
+---
+
+### 💬 Customer Feedback Trends
+
+**Visual:** Word Cloud / Sentiment Analysis
+
+Analyzes customer feedback and identifies common keywords or phrases.
+
+Feedback can be categorized into:
+
+* Positive
+* Neutral
+* Negative
+
+### Business Use
+
+Helps identify customer satisfaction patterns and areas requiring improvement.
+
+---
+
+# 3️⃣ Marketing Analytics Page
+
+This page evaluates marketing performance and customer acquisition.
+
+---
+
+### 📊 Campaign ROI Analysis
+
+**Visual:** Bar Chart / Funnel Chart
+
+Compares marketing investment with the revenue generated from different campaigns.
+
+### Business Use
+
+Helps evaluate campaign effectiveness and understand marketing performance.
+
+---
+
+### 📢 Customer Acquisition by Channel
+
+**Visual:** Pie Chart
+
+Shows the percentage of customers acquired through different channels such as:
+
+* Social Media
+* Email
+* Referral
+* Other channels
+
+### Business Use
+
+Helps identify effective customer acquisition channels.
+
+---
+
+### 🌍 Marketing Spend by Region
+
+**Visual:** Stacked Bar Chart
+
+Displays marketing budget allocation across different regions.
+
+### Business Use
+
+Helps compare regional marketing investment and evaluate opportunities for optimization.
+
+---
+
+# 4️⃣ Inventory Analytics Page
+
+This page focuses on inventory availability and stock management.
+
+---
+
+### 📦 Stock Levels by Product Category
+
+**Visual:** Bar Chart
+
+Displays current inventory levels across product categories.
+
+### Business Use
+
+Helps identify:
+
+* Fast-moving categories
+* Slow-moving categories
+* Potential stockout risks
+* Overstock situations
+
+---
+
+### 🔄 Inventory Turnover Ratio
+
+**Visual:** KPI Card
+
+Measures how efficiently inventory is sold and replaced over time.
+
+### Business Use
+
+Helps evaluate inventory management efficiency and identify slow-moving inventory.
+
+---
+
+### ⚠️ Low Stock Alerts
+
+**Visual:** Heatmap / Table
+
+Identifies products approaching their stock depletion levels.
+
+### Business Use
+
+Helps support timely restocking and reduce potential stockouts.
+
+---
+
+# 5️⃣ Sales Overview Page
+
+This page provides insights into revenue and sales performance.
+
+---
+
+### 💰 Revenue by Product Category
+
+**Visual:** Column Chart
+
+Displays revenue generated from different product categories.
+
+### Business Use
+
+Helps identify high- and low-performing product categories.
+
+---
+
+### 📈 Monthly Sales Trends
+
+**Visual:** Line Chart
+
+Tracks sales performance over time.
+
+### Business Use
+
+Helps identify:
+
+* Sales growth
+* Sales decline
+* Seasonal trends
+* Revenue patterns
+
+---
+
+### 🛍️ Average Order Value
+
+**Visual:** KPI Card
+
+Measures the average revenue generated per order.
+
+### Business Use
+
+Helps understand customer purchasing behavior and identify opportunities for upselling and cross-selling.
 
 ---
 
 # 🛠️ Tools & Technologies
 
-- **Power BI**
-- **Power Query**
-- **DAX**
-- **Data Modeling**
-- **Microsoft Excel**
+| Tool                   | Purpose                                 |
+| ---------------------- | --------------------------------------- |
+| **Power BI**           | Dashboard development and visualization |
+| **DAX**                | KPI and analytical calculations         |
+| **Power Query**        | Data transformation and preparation     |
+| **Data Visualization** | Business insight communication          |
 
 ---
 
-# 📌 Key Features
+# 🔑 Key Features
 
-- Interactive multi-page dashboard
-- Dynamic KPIs
-- Drill-through reports
-- Interactive slicers and filters
-- Business performance monitoring
-- Customer behavior analysis
-- Inventory tracking
-- Marketing performance analysis
-- Customer feedback insights
+### Interactive Dashboard
 
----
+Users can interact with the dashboard to explore different business metrics.
 
-# 🚀 Business Impact
+### Dynamic Filtering
 
-This dashboard empowers stakeholders to:
+Filters allow users to analyze data based on dimensions such as:
 
-- Make faster, data-driven decisions
-- Improve operational efficiency
-- Optimize inventory management
-- Increase marketing effectiveness
-- Enhance customer satisfaction
-- Monitor business performance from a single dashboard
+* Time period
+* Region
+* Product category
+* Other available business dimensions
 
----
+### Drill-Down Analysis
 
-# 📷 Dashboard Preview
+Users can move from high-level metrics to more detailed information.
 
-> *(Add dashboard screenshots here)*
+### KPI Monitoring
+
+Important business metrics are presented using KPI cards and interactive visuals.
+
+### Business-Focused Insights
+
+The dashboard focuses on converting raw business data into meaningful operational and commercial insights.
 
 ---
 
-# 📂 Repository Structure
+# 👥 Target Audience
 
+The dashboard is designed for:
+
+### Business Stakeholders
+
+For monitoring high-level business performance.
+
+### Operations Managers
+
+For analyzing delivery and inventory performance.
+
+### Data Analysts & Engineers
+
+For exploring business data and performing deeper analysis.
+
+---
+
+# 📈 Expected Outcomes
+
+The project aims to provide:
+
+* Better visibility into business performance.
+* Improved operational monitoring.
+* Better understanding of customer behavior.
+* Improved inventory visibility.
+* Marketing performance analysis.
+* Sales and revenue monitoring.
+* A reusable analytics framework for similar quick-commerce businesses.
+
+---
+
+# 💡 Business Areas Covered
+
+```text
+Operations
+   ↓
+Deliveries
+   ↓
+Customers
+   ↓
+Marketing
+   ↓
+Inventory
+   ↓
+Sales
+   ↓
+Business Insights
 ```
-Blinkit-Business-Intelligence-Dashboard
+
+---
+
+# 📸 Dashboard Preview
+
+Add your Power BI dashboard screenshots here.
+
+Example:
+
+```markdown
+## Dashboard Preview
+
+![Overview Dashboard](Screenshots/overview.png)
+
+![Customer Dashboard](Screenshots/customer.png)
+
+![Marketing Dashboard](Screenshots/marketing.png)
+
+![Inventory Dashboard](Screenshots/inventory.png)
+
+![Sales Dashboard](Screenshots/sales.png)
+```
+
+Recommended GitHub folder structure:
+
+```text
+Blinkit-Analytics/
 │
-├── Dashboard.pbix
 ├── README.md
+│
+├── Dataset/
+│   └── blinkit_dataset.csv
+│
 ├── Screenshots/
-└── Assets/
+│   ├── overview.png
+│   ├── customer.png
+│   ├── marketing.png
+│   ├── inventory.png
+│   └── sales.png
+│
+└── PowerBI/
+    └── Blinkit_Dashboard.pbix
 ```
+
+---
+
+# 🚀 Project Highlights
+
+* Interactive Power BI dashboard
+* Business KPI monitoring
+* Delivery performance analysis
+* Customer retention analysis
+* Customer feedback analysis
+* Marketing ROI analysis
+* Inventory monitoring
+* Sales and revenue analysis
+* Dynamic filtering
+* Drill-down analysis
+* Business-focused data visualization
+
+---
+
+# 📌 Conclusion
+
+The **Blinkit Operations & Sales Analytics Dashboard** demonstrates how Power BI can be used to transform business data into an interactive analytical solution.
+
+By combining operational, customer, marketing, inventory, and sales analysis, the dashboard provides stakeholders with a centralized view of business performance and supports data-driven decision-making.
+
+---
+
+## 👩‍💻 Author
+
+**Shelly**
+
+### Skills Demonstrated
+
+`Power BI` • `DAX` • `Power Query` • `Data Visualization` • `Business Intelligence`
+
+### Connect With Me
+
+* **GitHub:** `https://github.com/keliya-shelly`
+* **LinkedIn:** `https://linkedin.com/in/shelly`
+* **Email:** `shellykeliya99@gmail.com`
